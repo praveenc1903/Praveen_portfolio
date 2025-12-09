@@ -15,7 +15,7 @@
 
 <body>
 
-    <!------------------ HEADER -------------------->
+    <!-- ===== HEADER ===== -->
     <header class="l-header">
         <nav class="nav bd-grid">
             <div class="nav__logo">Praveen C</div>
@@ -25,7 +25,8 @@
                     <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
                     <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
                     <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                    <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Experience</a></li>
                     <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
                 </ul>
             </div>
@@ -36,10 +37,10 @@
         </nav>
     </header>
 
-    <!------------------ MAIN -------------------->
+    <!-- ===== MAIN ===== -->
     <main class="l-main">
 
-        <!------------ HOME SECTION ------------>
+        <!-- ===== HOME ===== -->
         <section id="home" class="home bd-grid">
             <div class="home__data">
                 <h1 class="home__title">
@@ -47,13 +48,20 @@
                     Data Analyst
                 </h1>
 
-                <a href="https://wa.me/9500574505" class="button">Contact Me</a>
+                <!-- Updated to UK WhatsApp number -->
+                <a href="https://wa.me/447448208131" class="button">Contact Me</a>
             </div>
 
             <div class="home__social">
-                <a href="https://www.linkedin.com/in/praveenc1932/" class="home__social-icon"><i class="bx bxl-linkedin"></i></a>
-                <a href="https://leetcode.com/u/Praveen1932/" class="home__social-icon"><i class='bx bx-code-curly'></i></a>
-                <a href="https://github.com/praveenc1903" class="home__social-icon"><i class="bx bxl-github"></i></a>
+                <a href="https://www.linkedin.com/in/praveenc1932/" class="home__social-icon">
+                    <i class="bx bxl-linkedin"></i>
+                </a>
+                <a href="https://leetcode.com/u/Praveen1932/" class="home__social-icon">
+                    <i class='bx bx-code-curly'></i>
+                </a>
+                <a href="https://github.com/praveenc1903" class="home__social-icon">
+                    <i class="bx bxl-github"></i>
+                </a>
             </div>
 
             <div class="home__img">
@@ -61,7 +69,7 @@
             </div>
         </section>
 
-        <!------------ ABOUT SECTION ------------>
+        <!-- ===== ABOUT ===== -->
         <section id="about" class="about section">
             <h2 class="section-title">About Me</h2>
 
@@ -73,16 +81,16 @@
                 <div>
                     <h2 class="about__subtitle">I'm Praveen</h2>
                     <p class="about__text">
-                        I am a Data Science & AI student specialising in Python, SQL, Power BI, and analytics.
-                        With experience in Mainframe Operations at Kyndryl, I bring strong problem-solving,
-                        data handling, and analytical skills. I enjoy building machine learning models, dashboards,
-                        and end-to-end data projects with real-world impact.
+                        I am a Data Science & AI student specialising in Python, SQL, and Power BI.
+                        I also have professional experience in Mainframe Operations at Kyndryl, where I worked
+                        on critical batch jobs and production workflows. I enjoy building analytical solutions,
+                        dashboards, and machine learning models that solve real-world business problems.
                     </p>
                 </div>
             </div>
         </section>
 
-        <!------------ SKILLS SECTION ------------>
+        <!-- ===== SKILLS ===== -->
         <section id="skills" class="skills section">
             <h2 class="section-title">Skills</h2>
 
@@ -91,7 +99,7 @@
                     <div class="skills__data">
                         <div class="skills__names">
                             <i class="bx bx-code-alt skills__icon"></i>
-                            <span class="skills__name">Python</span>
+                            <span class="skills__name">Python (Pandas, NumPy, scikit-learn)</span>
                         </div>
                         <span class="skills__level">Intermediate</span>
                     </div>
@@ -99,7 +107,7 @@
                     <div class="skills__data">
                         <div class="skills__names">
                             <i class="bx bx-data skills__icon"></i>
-                            <span class="skills__name">SQL</span>
+                            <span class="skills__name">SQL (Joins, Aggregations)</span>
                         </div>
                         <span class="skills__level">Intermediate</span>
                     </div>
@@ -107,7 +115,7 @@
                     <div class="skills__data">
                         <div class="skills__names">
                             <i class="bx bx-bar-chart-alt-2 skills__icon"></i>
-                            <span class="skills__name">Power BI</span>
+                            <span class="skills__name">Power BI (Dashboards, DAX)</span>
                         </div>
                         <span class="skills__level">Intermediate</span>
                     </div>
@@ -131,30 +139,95 @@
             </div>
         </section>
 
-        <!------------ WORK SECTION ------------>
+        <!-- ===== PROJECTS ===== -->
+        <section id="projects" class="projects section">
+            <h2 class="section-title">Projects</h2>
+
+            <div class="projects__container bd-grid">
+                <!-- Project 1 -->
+                <article class="project__card">
+                    <h3 class="project__title">Music Recommendation Engine</h3>
+                    <p class="project__description">
+                        Built a Python-based recommendation system using audio features (acousticness, danceability, energy, valence)
+                        to suggest similar songs and artists.
+                    </p>
+                    <a href="https://github.com/praveenc1903" target="_blank" class="project__link">
+                        View on GitHub
+                    </a>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project__card">
+                    <h3 class="project__title">Fraud Detection Pipeline</h3>
+                    <p class="project__description">
+                        End-to-end ML pipeline for classifying fraudulent claims using feature engineering, model training,
+                        evaluation (ROC, F1-score), and a simple Streamlit dashboard.
+                    </p>
+                    <a href="https://github.com/praveenc1903" target="_blank" class="project__link">
+                        View on GitHub
+                    </a>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project__card">
+                    <h3 class="project__title">Power BI Sales Dashboard</h3>
+                    <p class="project__description">
+                        Interactive dashboard to track revenue, regional trends, and customer behaviour with drill-down analysis.
+                    </p>
+                    <a href="https://app.powerbi.com/" target="_blank" class="project__link">
+                        View Dashboard
+                    </a>
+                </article>
+            </div>
+        </section>
+
+        <!-- ===== EXPERIENCE / WORK ===== -->
         <section id="work" class="work section">
             <h2 class="section-title">Experience</h2>
 
             <div class="work__container bd-grid">
-                <div class="work__img">
-                    <img src="work1.jpg" alt="">
+                <div class="work__item">
+                    <h3 class="work__role">Mainframe Operations Specialist</h3>
+                    <p class="work__company">Kyndryl</p>
+                    <p class="work__time">Mar 2022 – Present</p>
+                    <p class="work__desc">
+                        Monitoring and supporting batch jobs, resolving production incidents,
+                        and ensuring system stability and SLA adherence.
+                    </p>
                 </div>
 
-                <div class="work__img">
-                    <img src="work2.jpg" alt="">
-                </div>
-
-                <div class="work__img">
-                    <img src="work3.jpg" alt="">
+                <div class="work__item">
+                    <h3 class="work__role">Data Science Trainee</h3>
+                    <p class="work__company">GUVI</p>
+                    <p class="work__time">Sep 2024 – Present</p>
+                    <p class="work__desc">
+                        Working on Python, statistics, machine learning algorithms, and hands-on projects
+                        focused on analytics and model building.
+                    </p>
                 </div>
             </div>
         </section>
 
-        <!------------ CONTACT SECTION ------------>
+        <!-- ===== CONTACT ===== -->
         <section id="contact" class="contact section">
             <h2 class="section-title">Contact Me</h2>
 
             <div class="contact__container bd-grid">
+
+                <!-- Direct contact info -->
+                <div class="contact__info">
+                    <p><i class="bx bx-mail-send"></i>
+                        <a href="mailto:praveenuk1932@gmail.com">praveenuk1932@gmail.com</a>
+                    </p>
+                    <p><i class="bx bx-phone"></i>
+                        <a href="tel:+447448208131">+44 7448 208131</a>
+                    </p>
+                    <p><i class="bx bxl-whatsapp"></i>
+                        <a href="https://wa.me/447448208131" target="_blank">WhatsApp Me</a>
+                    </p>
+                </div>
+
+                <!-- Contact form -->
                 <form class="contact__form">
                     <input type="text" placeholder="Name" class="contact__input">
                     <input type="mail" placeholder="Email" class="contact__input">
@@ -166,20 +239,26 @@
 
     </main>
 
-    <!------------------ FOOTER -------------------->
+    <!-- ===== FOOTER ===== -->
     <footer class="footer">
         <p class="footer__title">Praveen</p>
 
         <div class="footer__social">
-            <a href="https://www.linkedin.com/in/praveenc1932/" class="footer__icon"><i class="bx bxl-linkedin"></i></a>
-            <a href="https://instagram.com/pravyn_19" class="footer__icon"><i class="bx bxl-instagram"></i></a>
-            <a href="https://wa.me/9500574505" class="footer__icon"><i class="bx bxl-whatsapp"></i></a>
+            <a href="https://www.linkedin.com/in/praveenc1932/" class="footer__icon">
+                <i class="bx bxl-linkedin"></i>
+            </a>
+            <a href="https://www.instagram.com/maybe.pravyn?igsh=cmVucWY0MXE3MTcy&utm_source=qr" class="footer__icon">
+                <i class="bx bxl-instagram"></i>
+            </a>
+            <a href="https://wa.me/447448208131" class="footer__icon">
+                <i class="bx bxl-whatsapp"></i>
+            </a>
         </div>
 
         <p class="footer__copy">&#169; 2025 Praveen | All Rights Reserved</p>
     </footer>
 
-    <!------------------ JS -------------------->
+    <!-- ===== JS ===== -->
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="praveen.js"></script>
 </body>
